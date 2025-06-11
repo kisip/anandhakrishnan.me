@@ -32,7 +32,7 @@ const Footer = () => {
     >
       <Text mb={3}>
         This page was made by using the following, feel free to{" "}
-        <Link target="_blank" href="https://github.com/muhsin7majeed/muhsi.in" textDecor={"underline"}>
+        <Link target="_blank" href="https://github.com/kisip/anandhakrishnan.me" textDecor={"underline"}>
           fork this repo
         </Link>
       </Text>

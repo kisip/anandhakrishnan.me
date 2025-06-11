@@ -1,128 +1,133 @@
-import { DiReact, DiAngularSimple, DiJavascript1, DiHtml5, DiCss3, DiGitBranch, DiSass } from "react-icons/di";
+import { DiLinux, DiGitBranch } from "react-icons/di";
 import {
-  SiTypescript,
-  SiFigma,
-  SiNextdotjs,
-  SiRedux,
-  SiChakraui,
-  SiStyledcomponents,
-  SiFramer,
-  SiReactquery,
-  SiNodedotjs,
-  SiMaterialdesign,
-  SiAzuredevops,
-  SiExpress,
-  SiSocketdotio,
-  SiJest,
-  SiApollographql,
-  SiGraphql,
+  SiDocker,
+  SiKubernetes,
+  SiTerraform,
+  SiAnsible,
+  SiGithubactions,
+  SiGitlab,
+  SiPrometheus,
+  SiGrafana,
+  SiNginx,
+  SiApache,
+  SiAmazonaws,
+  SiVmware,
+  SiVirtualbox,
+  SiBash,
+  SiUbuntu,
+  SiDebian,
+  SiRedhat,
+  SiCentos,
+  SiAlpinelinux,
+  SiArchlinux,
+  SiGnubash,
+  SiMariadb,
   SiMysql,
   SiPostgresql,
+  SiMongodb,
 } from "react-icons/si";
-import { BsBootstrap } from "react-icons/bs";
-import { AiFillGithub, AiFillGitlab, AiFillPieChart, AiOutlineDatabase, AiOutlineForm } from "react-icons/ai";
-import { TbBrandMongodb, TbBrandStorybook } from "react-icons/tb";
+import { AiOutlineCloudServer, AiFillGithub } from "react-icons/ai";
+import { FaLinux } from "react-icons/fa"; // For Pop!_OS
 
 import { Skill } from "@/types/Skills";
 
 const SKILLS_LIST: Skill[] = [
   {
-    name: "ReactJs",
-    color: "#61dbfb",
-    icon: DiReact,
+    name: "Linux",
+    color: "#000000",
+    icon: DiLinux,
     subSkills: [
-      { name: "Redux", color: "#764abc", icon: SiRedux },
-      { name: "ChakraUI", color: "teal", icon: SiChakraui },
-      { name: "Reactstrap", color: "#63d7c", icon: BsBootstrap },
-      { name: "Formik", color: "#004ec7", icon: AiOutlineForm },
-      { name: "Styled Components", color: "#ef69d3", icon: SiStyledcomponents },
-      { name: "Storybook", color: "#ff4785", icon: TbBrandStorybook },
-      { name: "Framer Motion", color: "#000000", icon: SiFramer },
-      { name: "React Query", color: "#f15d35", icon: SiReactquery },
-      { name: "Apollo GraphQL", color: "#311c87", icon: SiApollographql },
-      { name: "ChartJs", color: "#fe777b", icon: AiFillPieChart },
+      { name: "Ubuntu", color: "#e95420", icon: SiUbuntu },
+      { name: "Debian", color: "#a80030", icon: SiDebian },
+      { name: "Red Hat", color: "#cc0000", icon: SiRedhat },
+      { name: "CentOS", color: "#262577", icon: SiCentos },
+      { name: "Alpine", color: "#0d597f", icon: SiAlpinelinux },
+      { name: "Arch Linux", color: "#1793d1", icon: SiArchlinux },
+      { name: "Pop!_OS", color: "#48b9c7", icon: FaLinux },
+      { name: "Shell Scripting", color: "#4eaa25", icon: SiGnubash },
+      { name: "Bash", color: "#4eaa25", icon: SiBash },
     ],
   },
   {
-    name: "NextJs",
+    name: "Containers & Orchestration",
+    icon: SiDocker,
+    color: "#0db7ed",
+    subSkills: [
+      { name: "Docker", color: "#2496ed", icon: SiDocker },
+      { name: "Kubernetes", color: "#326ce5", icon: SiKubernetes },
+    ],
+  },
+  {
+    name: "Infrastructure as Code",
+    icon: SiTerraform,
+    color: "#623ce4",
+    subSkills: [
+      { name: "Terraform", color: "#623ce4", icon: SiTerraform },
+      { name: "Ansible", color: "#e00", icon: SiAnsible },
+    ],
+  },
+  {
+    name: "CI/CD",
+    icon: SiGithubactions,
+    color: "#24292e",
+    subSkills: [
+      { name: "GitHub Actions", color: "#24292e", icon: SiGithubactions },
+      { name: "GitLab CI", color: "#fc6d26", icon: SiGitlab },
+    ],
+  },
+  {
+    name: "Monitoring & Logging",
+    icon: SiPrometheus,
+    color: "#e6522c",
+    subSkills: [
+      { name: "Prometheus", color: "#e6522c", icon: SiPrometheus },
+      { name: "Grafana", color: "#f46800", icon: SiGrafana },
+    ],
+  },
+  {
+    name: "Web Servers & Reverse Proxies",
+    icon: SiNginx,
+    color: "#009639",
+    subSkills: [
+      { name: "Nginx", color: "#009639", icon: SiNginx },
+      { name: "Apache", color: "#d22128", icon: SiApache },
+    ],
+  },
+  {
+    name: "Cloud Providers",
+    icon: AiOutlineCloudServer,
     color: "#333",
-    icon: SiNextdotjs,
-  },
-  {
-    name: "JavaScript",
-    icon: DiJavascript1,
-    color: "#F0DB4F",
-    subSkills: [],
-  },
-  {
-    name: "TypeScript",
-    icon: SiTypescript,
-    color: "#007acc",
-  },
-  { name: "Jest", color: "#15c213", icon: SiJest },
-  {
-    name: "Angular 2+",
-    icon: DiAngularSimple,
-    color: "#dd1b16 ",
     subSkills: [
-      { name: "Angular Material", color: "#3f51b5", icon: SiMaterialdesign },
-      { name: "Bootstrap", color: "#63d7c", icon: BsBootstrap },
-      { name: "Apollo GraphQL", color: "#311c87", icon: SiApollographql },
-    ],
-  },
-
-  {
-    name: "CSS3",
-    icon: DiCss3,
-    color: "#264de4",
-    subSkills: [
-      { name: "SCSS", color: "#c66394", icon: DiSass },
-      { name: "Bootstrap", color: "#63d7c", icon: BsBootstrap },
+      { name: "AWS", color: "#ff9900", icon: SiAmazonaws },
     ],
   },
   {
-    name: "HTML5",
-    icon: DiHtml5,
-    color: "#e34c26",
+    name: "Virtualization",
+    icon: SiVmware,
+    color: "#607078",
+    subSkills: [
+      { name: "VMware", color: "#607078", icon: SiVmware },
+      { name: "VirtualBox", color: "#183a61", icon: SiVirtualbox },
+    ],
   },
-
   {
-    name: "GIT",
+    name: "Version Control",
     icon: DiGitBranch,
-    color: "#333",
+    color: "#f34f29",
     subSkills: [
       { name: "GitHub", color: "#24292f", icon: AiFillGithub },
-      { name: "GitLab", color: "#e24329", icon: AiFillGitlab },
-      { name: "Azure DevOps", color: "#0072cf", icon: SiAzuredevops },
-    ],
-  },
-  {
-    name: "Figma",
-    icon: SiFigma,
-    color: "#e34c26",
-  },
-  {
-    name: "GraphQL",
-    icon: SiGraphql,
-    color: "#ee0097",
-  },
-  {
-    name: "NodeJs",
-    icon: SiNodedotjs,
-    color: "#70a561",
-    subSkills: [
-      { name: "ExpressJs", color: "#010101", icon: SiExpress },
-      { name: "Socket.IO", color: "#010101", icon: SiSocketdotio },
+      { name: "GitLab", color: "#e24329", icon: SiGitlab },
     ],
   },
   {
     name: "Databases",
-    icon: AiOutlineDatabase,
-    color: "#333",
+    icon: SiPostgresql,
+    color: "#336791",
     subSkills: [
-      { name: "MySQL", color: "#dd8a00", icon: SiMysql },
-      { name: "MongoDB", color: "#116149", icon: TbBrandMongodb },
       { name: "PostgreSQL", color: "#336791", icon: SiPostgresql },
+      { name: "MySQL", color: "#dd8a00", icon: SiMysql },
+      { name: "MariaDB", color: "#003545", icon: SiMariadb },
+      { name: "MongoDB", color: "#47a248", icon: SiMongodb },
     ],
   },
 ];

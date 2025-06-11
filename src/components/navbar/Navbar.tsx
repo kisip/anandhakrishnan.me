@@ -21,7 +21,7 @@ const Navbar = () => {
           fontWeight={"semibold"}
           _hover={{ color: "blackAlpha.700", bgColor: "initial" }}
         >
-          Muhsin A
+          Anandhakrishnan
         </Text>
 
         {/* <Button onClick={toggleColorMode}>Toggle {colorMode === "light" ? "Dark" : "Light"}</Button> */}

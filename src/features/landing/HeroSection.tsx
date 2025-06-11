@@ -45,15 +45,15 @@ const HeroSection = () => {
           >
             Hey there! I'm{" "}
             <Text as="span" fontWeight="medium" color="primary.500">
-              Muhsin
+              Anandhakrishnan
             </Text>
             , a{" "}
             <Text as="span" fontWeight="medium" color="primary.500">
-              Frontend Engineer
+              DevOps Engineer
             </Text>{" "}
-            from Bangalore, India. I'm specialized in{" "}
+            from Kerala, India. I'm specialized in{" "}
             <Text as="span" fontWeight="medium" color="primary.500">
-              React & JavaScript
+            CI/CD, cloud infrastructure, automation, and system reliability
             </Text>
             .
           </Text>
@@ -62,7 +62,7 @@ const HeroSection = () => {
             <Button
               colorScheme="primary"
               as={Link}
-              href="mailto:me@muhsi.in"
+              href="mailto:kisipxbhp@gmail.com"
               target="_blank"
               style={{
                 transform: isInView ? "none" : "translateY(100px)",
@@ -76,7 +76,7 @@ const HeroSection = () => {
               colorScheme="primary"
               variant="outline"
               as={Link}
-              href="/resume.pdf"
+              href="/Anandha_Krishnan_Devops.pdf"
               target="_blank"
               style={{
                 transform: isInView ? "none" : "translateY(200px)",
