@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Muhsin A | Frontend Developer | Portfolio</title>
+        <title>Anandhakrishnan | DevOps Engineer | Portfolio</title>
         <meta name="description" content="Hey there! I'm a frontend developer specialized in JavaScript." key="desc" />
         <meta
           name="keywords"
