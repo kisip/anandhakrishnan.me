@@ -36,7 +36,7 @@ const Experiences = () => {
 
           <TimeLineItem>
             <Box>
-              <chakra.h2 fontSize={["md", null, "lg"]}>Nov 2021 - Present</chakra.h2>
+              <chakra.h2 fontSize={["md", null, "lg"]}>Nov 2024 - Present</chakra.h2>
 
               <chakra.h1 fontSize={["lg", null, "2xl"]} mb="2" fontWeight="bold">
               Projects at{" "}
