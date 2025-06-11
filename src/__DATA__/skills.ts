@@ -13,7 +13,7 @@ import {
   SiAmazonaws,
   SiVmware,
   SiVirtualbox,
-  SiBash,
+  SiGnubash,
   SiUbuntu,
   SiDebian,
   SiRedhat,
@@ -45,7 +45,7 @@ const SKILLS_LIST: Skill[] = [
       { name: "Arch Linux", color: "#1793d1", icon: SiArchlinux },
       { name: "Pop!_OS", color: "#48b9c7", icon: FaLinux },
       { name: "Shell Scripting", color: "#4eaa25", icon: SiGnubash },
-      { name: "Bash", color: "#4eaa25", icon: SiBash },
+      { name: "Bash", color: "#4eaa25", icon: SiGnubash },
     ],
   },
   {
