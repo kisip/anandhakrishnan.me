@@ -42,10 +42,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Anandhakrishnan | DevOps Engineer  | Portfolio</title>
-        <meta name="description" content="Hey there! I'm a frontend developer specialized in JavaScript." key="desc" />
+        <meta name="description" content="Hey there! I'm a DevOps Engineer  specialized in CI/CD, cloud infrastructure." key="desc" />
         <meta
           name="keywords"
-          content="web developer, front-end developer, HTML, CSS, JavaScript, React, Node.js, TypScript, NextJs"
+          content="DevOps Engineer, CI/CD, Linux, Docker, Kubernetes, Ansible, Git, AWS, Terraform, Monitoring, Automation"
         />
         <meta name="robots" content="index, follow" />
       </Head>
