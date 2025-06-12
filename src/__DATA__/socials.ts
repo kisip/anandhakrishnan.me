@@ -1,4 +1,5 @@
-import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiInstagram, FiLinkedin, } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa"; 
 
 import { SocialLink } from "@/types/socials";
 
@@ -20,6 +21,12 @@ const SOCIAL_LINKS: SocialLink[] = [
     link: "https://www.instagram.com/anandha._.krishnan/",
     icon: FiInstagram,
     color: "#c838aa",
+  },
+  {
+    name: "WhatsApp",
+    link: "https://wa.me/7034543456",
+    icon: FaWhatsapp,
+    color: "#25D366",
   },
 ];
 
