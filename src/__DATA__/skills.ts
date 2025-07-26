@@ -24,6 +24,10 @@ import {
   SiMysql,
   SiPostgresql,
   SiMongodb,
+  SiPython,
+  SiCss3,
+  SiHtml5,
+
 } from "react-icons/si";
 import { AiOutlineCloudServer, AiFillGithub } from "react-icons/ai";
 import { FaLinux } from "react-icons/fa"; // For Pop!_OS
@@ -129,6 +133,19 @@ const SKILLS_LIST: Skill[] = [
       { name: "MongoDB", color: "#47a248", icon: SiMongodb },
     ],
   },
+  {
+  name: "Programming & Scripting",
+  icon: SiPython,
+  color: "#306998",
+  subSkills: [
+    { name: "Python", color: "#306998", icon: SiPython },
+    { name: "HTML", color: "#e34f26", icon: SiHtml5 },
+    { name: "CSS", color: "#264de4", icon: SiCss3 },
+    { name: "Bash", color: "#4eaa25", icon: SiGnubash },
+  ],
+},
+
 ];
+
 
 export default SKILLS_LIST;
