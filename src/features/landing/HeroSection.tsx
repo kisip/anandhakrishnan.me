@@ -76,7 +76,7 @@ const HeroSection = () => {
               colorScheme="primary"
               variant="outline"
               as={Link}
-              href="/anandhu.pdf"
+              href="/Anandhan_DevOps_Cv_v2.pdf"
               target="_blank"
               style={{
                 transform: isInView ? "none" : "translateY(200px)",
