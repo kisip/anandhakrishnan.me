@@ -29,9 +29,9 @@ const HeroSection = () => {
             }}
           >
             <Text as="span" color="primary.500">
-              Engineering the Web:
+              Automating the Future:
             </Text>
-            <br /> Blending Design and Functionality to Perfection!
+            <br /> Building Scalable & Reliable Systems with DevOps!
           </Heading>
 
           <Text
@@ -49,13 +49,14 @@ const HeroSection = () => {
             </Text>
             , a{" "}
             <Text as="span" fontWeight="medium" color="primary.500">
-              DevOps Engineer
+              DevOps & CI/CD Engineer
             </Text>{" "}
-            from Kerala, India. I'm specialized in{" "}
+            from Kerala, India. I specialize in{" "}
             <Text as="span" fontWeight="medium" color="primary.500">
-            CI/CD, cloud infrastructure, automation, and system reliability
+              continuous integration & delivery, cloud infrastructure, automation, containerization, and system
+              reliability
             </Text>
-            .
+            , ensuring fast, secure, and scalable deployments.
           </Text>
 
           <Flex alignItems="center" gap={4}>
